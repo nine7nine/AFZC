@@ -446,6 +446,7 @@ public class UpdateBinaryOperations {
             case Types.GROUP_SYSTEM_PRIV_APK:
             case Types.GROUP_DATA_APP:
             case Types.GROUP_SYSTEM_BIN:
+            case Types.GROUP_SYSTEM_XBIN:    
             case Types.GROUP_SYSTEM_ETC:
             case Types.GROUP_SYSTEM_FRAMEWORK:
                 if (Preference.pp.createZipType.equals("Aroma")) {

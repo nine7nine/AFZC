@@ -34,14 +34,15 @@ public class Types {
     public static final int GROUP_SYSTEM_MEDIA = 28;
     public static final int GROUP_SYSTEM_FONTS = 29;
     public static final int GROUP_SYSTEM_BIN = 30;
-    public static final int GROUP_SYSTEM_ETC = 31;
-    public static final int GROUP_SYSTEM_FRAMEWORK = 32;
-    public static final int GROUP_DATA_APP = 33;
-    public static final int GROUP_DATA_LOCAL = 34;
-    public static final int GROUP_CUSTOM = 35;
-    public static final int GROUP_MOD = 36;
-    public static final int GROUP_AROMA_THEMES = 37;
-    public static final int GROUP_DELETE_FILES = 38;
-    public static final int GROUP_SCRIPT = 39;
+    public static final int GROUP_SYSTEM_XBIN = 31;
+    public static final int GROUP_SYSTEM_ETC = 32;
+    public static final int GROUP_SYSTEM_FRAMEWORK = 33;
+    public static final int GROUP_DATA_APP = 34;
+    public static final int GROUP_DATA_LOCAL = 35;
+    public static final int GROUP_CUSTOM = 36;
+    public static final int GROUP_MOD = 37;
+    public static final int GROUP_AROMA_THEMES = 38;
+    public static final int GROUP_DELETE_FILES = 39;
+    public static final int GROUP_SCRIPT = 40;
     
 }

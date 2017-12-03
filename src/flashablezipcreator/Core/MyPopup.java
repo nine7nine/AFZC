@@ -108,6 +108,11 @@ public class MyPopup {
         mitemSystemBin.addActionListener((ActionEvent ae) -> {
             addQuickGroupObject(Types.GROUP_SYSTEM_BIN, node, "System Bin");
         });
+        
+        JMenuItem mitemSystemxBin = new JMenuItem("system/xbin");
+        mitemSystemxBin.addActionListener((ActionEvent ae) -> {
+            addQuickGroupObject(Types.GROUP_SYSTEM_XBIN, node, "System XBin");
+        });
 
         JMenuItem mitemSystemFramework = new JMenuItem("system/framework");
         mitemSystemFramework.addActionListener((ActionEvent ae) -> {
@@ -166,6 +171,7 @@ public class MyPopup {
                 addSystemGroupMenu.add(mitemSystemApp);
                 addSystemGroupMenu.add(mitemPrivApp);
                 addSystemGroupMenu.add(mitemSystemBin);
+                addSystemGroupMenu.add(mitemSystemxBin);
                 addSystemGroupMenu.add(mitemSystemEtc);
                 addSystemGroupMenu.add(mitemSystemFramework);
                 JMenu addDataGroupMenu = new JMenu("Data Group");
@@ -277,6 +283,7 @@ public class MyPopup {
                     popup.add(mitemAddFile);
                     break;
                 case Types.GROUP_SYSTEM_BIN:
+                case Types.GROUP_SYSTEM_XBIN:
                 case Types.GROUP_SYSTEM_MEDIA_AUDIO_ALARMS:
                 case Types.GROUP_SYSTEM_MEDIA_AUDIO_NOTIFICATIONS:
                 case Types.GROUP_SYSTEM_MEDIA_AUDIO_RINGTONES:

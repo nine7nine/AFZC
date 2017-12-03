@@ -205,6 +205,15 @@ public final class NodeProperties {
                 setPermissions(owner, group, perm);
                 originalGroupType = typePrefix + "system_bin";
                 break;
+            case Types.GROUP_SYSTEM_XBIN:
+                propFile = getProp("system_xbin");
+                owner = "0";
+                group = "0";
+                perm = "0755";
+                location = "/system/xbin";
+                setPermissions(owner, group, perm);
+                originalGroupType = typePrefix + "system_xbin";
+                break;
             case Types.GROUP_SYSTEM_ETC:
                 propFile = getProp("system_etc");
                 owner = "0";
